@@ -1,7 +1,7 @@
-url: https://concriz.com/api/health
+url: https://concriz.com/pdv/api/health
 status: up
 code: 200
-responseTime: 736
-lastUpdated: 2026-11-23T03:24:36.027Z
+responseTime: 759
+lastUpdated: 2026-11-23T08:12:15.532Z
 startTime: 2026-07-30T09:09:03.192Z
 generator: Upptime <https://github.com/upptime/upptime>
