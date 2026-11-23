@@ -13,7 +13,7 @@ sites:
   # exigimos o corpo do health check — assim uma pagina de erro devolvida com
   # 200 tambem conta como queda.
   - name: API
-    url: https://concriz.com/api/health
+    url: https://concriz.com/pdv/api/health
     __dangerous__body_down_if_text_missing: '"status":"ok"'
     maxResponseTime: 5000
 
@@ -26,7 +26,7 @@ sites:
   # Gestor Web (build Flutter). "flutter_bootstrap" e estavel entre releases e
   # nao aparece em pagina de erro do Cloudflare.
   - name: Gestor Web
-    url: https://concriz.com/web/
+    url: https://concriz.com/pdv/web/
     __dangerous__body_down_if_text_missing: "flutter_bootstrap"
     maxResponseTime: 5000
 
